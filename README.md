@@ -5,7 +5,13 @@ Draft library of PHP classes for handling HRD pricelists.
 
 
 
-Install
+Installation
 --------------------------------------------------------------------------------
 
-Comming soon ;-)
+
+~~~~ bash
+git clone https://github.com/websafe/php-lib-hrd-pricelist.git
+cd php-lib-hrd-pricelist
+./install.sh
+~~~~
+
