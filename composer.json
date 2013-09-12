@@ -1,6 +1,6 @@
 {
     "name": "websafe/php-lib-hrd-pricelist",
-    "type": "project",
+    "type": "library",
     "description": "Draft library of PHP classes for handling HRD pricelists.",
     "license": ["GPL-3.0+", "BSD-2-Clause"],
     "authors": [
@@ -11,16 +11,16 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/",
+    "homepage": "https://github.com/websafe/php-lib-hrd-pricelist/",
     "support": {
         "email": "support@websafe.pl",
-        "issues": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/issues?state=open",
-        "forum": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/issues?labels=question",
-        "wiki": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/wiki",
-        "source": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/"
+        "issues": "https://github.com/websafe/php-lib-hrd-pricelist/issues?state=open",
+        "forum": "https://github.com/websafe/php-lib-hrd-pricelist/issues?labels=question",
+        "wiki": "https://github.com/websafe/php-lib-hrd-pricelist/wiki",
+        "source": "https://github.com/websafe/php-lib-hrd-pricelist/"
     },
     "keywords": [
-        "websafe", "HRD", "pricelist", "PHP", "OOP"
+        "websafe", "HRD", "pricelist", "PHP", "library", "lib", "OOP"
     ],
     "minimum-stability": "dev",
     "require": {
