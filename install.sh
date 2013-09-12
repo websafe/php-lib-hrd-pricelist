@@ -4,8 +4,9 @@
 mkdir -p vendor/bin
 
 #
-curl -sS https://getcomposer.org/installer \
-    | php -- --install-dir=vendor/bin
+php -n \
+    -r "eval('?>'.file_get_contents('https://getcomposer.org/installer'));" \
+    -- --install-dir=vendor/bin
 
 #
-vendor/bin/composer.phar update
+php -n vendor/bin/composer.phar update
