@@ -39,27 +39,31 @@ foreach($cennik->getItemsIndex() as $index)
         $purchasePrice = $item->getPurchasePrice($priceType);
         $sellPrice = $item->getSellPrice($priceType);
         //
-        if($purchasePrice < $sellPrice)
+        if(null !== $purchasePrice)
         {
-            $priceTypeCondition = 'OK';
-            $conditionCounter[$priceTypeCondition]++;
-        }
-        elseif($purchasePrice == $sellPrice)
-        {
-            $priceTypeCondition = 'WARNING';
-            $conditionCounter[$priceTypeCondition]++;
-        }
-        elseif($purchasePrice > $sellPrice)
-        {
-            $priceTypeCondition = 'CRITICAL'; 
-            $conditionCounter[$priceTypeCondition]++;
-        }
+            //
+            if($purchasePrice < $sellPrice)
+            {
+                $priceTypeCondition = 'OK';
+                $conditionCounter[$priceTypeCondition]++;
+            }
+            elseif($purchasePrice == $sellPrice)
+            {
+                $priceTypeCondition = 'WARNING';
+                $conditionCounter[$priceTypeCondition]++;
+            }
+            elseif($purchasePrice > $sellPrice)
+            {
+                $priceTypeCondition = 'CRITICAL'; 
+                $conditionCounter[$priceTypeCondition]++;
+            }
 
-        echo '<b><var>' . $item->getType() . '</var></b>'
-            . ' price condition for <var>' . $priceType . '</var> is ' 
-            . '<span class="' .  $priceTypeCondition . '">'
-            . $priceTypeCondition
-            . '</span>' . PHP_EOL;
+            echo '<b><var>' . $item->getType() . '</var></b>'
+                . ' price condition for <var>' . $priceType . '</var> is ' 
+                . '<span class="' .  $priceTypeCondition . '">'
+                . $priceTypeCondition
+                . '</span>' . PHP_EOL;
+        }
     }
     echo PHP_EOL;
 }
