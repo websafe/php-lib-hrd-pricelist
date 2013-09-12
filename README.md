@@ -15,3 +15,24 @@ cd php-lib-hrd-pricelist
 ./install.sh
 ~~~~
 
+
+
+Problems
+--------------------------------------------------------------------------------
+
+
+###  Class 'NumberFormatter' not found...
+
+Install `libicu-devel` and the `intl` extension for PHP:
+
+~~~~ bash
+yum install libicu-devel
+pecl install intl
+~~~~
+
+
+in `php.ini`:
+
+~~~~ plain
+extension=intl.so
+~~~~
