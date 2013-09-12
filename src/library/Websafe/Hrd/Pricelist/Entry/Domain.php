@@ -3,7 +3,7 @@
 /**
  * Domain Pricelist Entry Class.
  *
- * @link http://github.com/websafe/websafe-php-lib-hrd-pricelist GitHub project
+ * @link http://github.com/websafe/php-lib-hrd-pricelist GitHub project page
  * @author Thomas Szteliga <ts@websafe.pl>
  * @copyright Copyright (c) 2013 Thomas Szteliga (https://websafe.pl/)
  * @license http://directory.fsf.org/wiki?title=License:FreeBSD BSD-2-Clause
@@ -39,18 +39,18 @@
  * POSSIBILITY OF SUCH DAMAGE.
  *
  *
- * ALTERNATIVELY, websafe-php-lib-awd is free software: you can
+ * ALTERNATIVELY, php-lib-hrd-pricelist is free software: you can
  * redistribute it and/or modify it under the terms of the GNU General
  * Public License as published by the Free Software Foundation, either
  * version 3 of the License, or (at your option) any later version.
  *
- * websafe-php-lib-awd is distributed in the hope that it will be
+ * php-lib-hrd-pricelist is distributed in the hope that it will be
  * useful, but WITHOUT ANY WARRANTY; without even the implied warranty
  * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with websafe-php-lib-awd.  If not, see
+ * along with php-lib-hrd-pricelist.  If not, see
  * <http://www.gnu.org/licenses/>.
  *
  */
