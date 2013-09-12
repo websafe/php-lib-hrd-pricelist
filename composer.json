@@ -1,0 +1,43 @@
+{
+    "name": "websafe/php-lib-hrd-pricelist",
+    "type": "project",
+    "description": "Draft library of PHP classes for handling HRD pricelists.",
+    "license": ["GPL-3.0+", "BSD-2-Clause"],
+    "authors": [
+        {
+            "name": "Thomas Szteliga",
+            "email": "ts@websafe.pl",
+            "homepage": "https://websafe.pl/",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/",
+    "support": {
+        "email": "support@websafe.pl",
+        "issues": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/issues?state=open",
+        "forum": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/issues?labels=question",
+        "wiki": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/wiki",
+        "source": "https://github.com/websafe/websafe-php-lib-hrd-pricelist/"
+    },
+    "keywords": [
+        "websafe", "HRD", "pricelist", "PHP", "OOP"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "php": ">=5.3.3",
+        "zendframework/zend-loader": "dev-master",
+        "zendframework/zend-servicemanager": "dev-master",
+        "zendframework/zend-log": "dev-master",
+        "zendframework/zend-filter": "dev-master",
+        "zendframework/zend-i18n": "dev-master"
+    },
+    "config": {
+        "process-timeout": 5000
+    },
+    "autoload": {
+        "psr-0": {
+            "Websafe\\Hrd\\Pricelist\\": "src/library/"
+        }
+    }
+}
